@@ -108,6 +108,7 @@
     <Content Include="Pages\Register.aspx" />
     <Content Include="Otemanu.Master" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\otemanu.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
