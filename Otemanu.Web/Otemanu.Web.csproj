@@ -16,9 +16,9 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
-    <IISExpressUseClassicPipelineMode />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -94,6 +94,7 @@
     <Content Include="Pages\Build.aspx" />
     <Content Include="Pages\CDSDictionary.aspx" />
     <Content Include="Pages\CreateNewCDS.aspx" />
+    <Content Include="Pages\CreateNewQuery.aspx" />
     <Content Include="Pages\Dictionaries.aspx" />
     <Content Include="Pages\Home.aspx" />
     <Content Include="Images\AddOccurence.png" />
@@ -103,6 +104,7 @@
     <Content Include="Images\Reports.png" />
     <Content Include="Images\Separator.png" />
     <Content Include="Pages\Login.aspx" />
+    <Content Include="Pages\QueryDictionary.aspx" />
     <Content Include="Pages\Register.aspx" />
     <Content Include="Otemanu.Master" />
     <Content Include="packages.config" />
@@ -149,6 +151,13 @@
     <Compile Include="Pages\CreateNewCDS.aspx.designer.cs">
       <DependentUpon>CreateNewCDS.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\CreateNewQuery.aspx.cs">
+      <DependentUpon>CreateNewQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CreateNewQuery.aspx.designer.cs">
+      <DependentUpon>CreateNewQuery.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Dictionaries.aspx.cs">
       <DependentUpon>Dictionaries.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -169,6 +178,13 @@
     </Compile>
     <Compile Include="Pages\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\QueryDictionary.aspx.cs">
+      <DependentUpon>QueryDictionary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\QueryDictionary.aspx.designer.cs">
+      <DependentUpon>QueryDictionary.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
