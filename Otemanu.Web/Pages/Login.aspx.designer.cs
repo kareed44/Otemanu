@@ -22,6 +22,15 @@ namespace Otemanu {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// OtemanuLogoImage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image OtemanuLogoImage;
+        
+        /// <summary>
         /// StatusText control.
         /// </summary>
         /// <remarks>
